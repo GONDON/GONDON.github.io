@@ -19,6 +19,7 @@ categories: vue
     
     console.log("this a is:",obj.a)
 ```
+<!--more-->
 ### 2.基于vue的观察者模式
 ```
     function defineReactive (obj,key,val){
