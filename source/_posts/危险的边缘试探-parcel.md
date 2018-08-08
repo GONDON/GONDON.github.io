@@ -14,7 +14,7 @@ parcel打造零配置，只需要你把它加入到你的项目中即可。
     
 ```
 file-watch这个插件，我们在项目开发中基本上都会用，它会帮助我们监听文件的变化从而重启项目。但是如果项目大了的话，重启1次是一件很耗时的事情。parcel利用worker进程并行编译你的代码，利用现代多核处理器。这是因为它在初始化构建的时候有一个巨大的加速度，它还有一个文件系统缓存，它为更快的后续启动节省了每个文件的编译结果。
-
+<!--more-->
 > parcel's transforms work on ASTs so that there is one parse, many transforms, and one code generation per file.
 
 ### parcel是怎么工作的
